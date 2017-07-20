@@ -53,8 +53,6 @@ RUN apk add mc
 ADD https://api.github.com/repos/$BUILD_REPO/commits/$BUILD_BRANCH /tmp/pogoprotos
 RUN apk -U --no-cache add --virtual .pgobot-dependencies wget ca-certificates tar jq
 RUN wget -q -O- https://github.com/$BUILD_REPO/archive/$BUILD_BRANCH.tar.gz 
-RUN tar zxf - --strip-components=1 -C /usr/src/app
-RUN jq -r .sha /tmp/pgobot-version > /usr/src/app/version
 RUN apk del .pgobot-dependencies
 RUN rm -rf /var/cache/apk/* /tmp/pgobot-version
 
