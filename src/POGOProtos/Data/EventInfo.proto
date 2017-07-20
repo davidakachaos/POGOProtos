@@ -1,0 +1,9 @@
+syntax = "proto3";
+package POGOProtos.Data;
+
+message EventInfo
+{
+  string image_url = 1;
+  string icon_url = 2;
+  string name_key = 3;
+}
