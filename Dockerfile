@@ -44,7 +44,10 @@ RUN apk del .build-dependencies
 RUN rm -rf /var/cache/apk/* /tmp/pgoencrypt* /usr/include/xlocale.h
 RUN find / -name '*.pyc' -o -name '*.pyo' | xargs -rn1 rm -f
 
+RUN apk update
 RUN apk add bash
+
+RUN apk update
 RUN apk add mc
 
 ADD https://api.github.com/repos/$BUILD_REPO/commits/$BUILD_BRANCH /tmp/pogoprotos
