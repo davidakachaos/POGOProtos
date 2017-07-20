@@ -16,6 +16,9 @@ FROM alpine
 
 ARG BUILD_REPO=goedzo/POGOProtos
 ARG BUILD_BRANCH=master
+ARG BUILD_REPO2=goedzo/pgoapi
+
+
 
 LABEL build_repo=$BUILD_REPO build_branch=$BUILD_BRANCH
 
@@ -90,5 +93,7 @@ WORKDIR /defs
 
 
 RUN git clone https://github.com/$BUILD_REPO /src/pogoprotos/
+RUN git clone https://github.com/$BUILD_REPO2 /src/pgoapi/
+
 
 CMD ["/bin/bash"]
