@@ -92,8 +92,9 @@ RUN set -ex \
 WORKDIR /defs
 
 
-RUN git clone https://github.com/$BUILD_REPO /src/pogoprotos/
-RUN git clone https://github.com/$BUILD_REPO2 /src/pgoapi/
-
+RUN git clone https://github.com/goedzo/POGOProtos /src/pogoprotos/
+RUN git clone https://github.com/goedzo/pgoapi /src/pgoapi/
+RUN cp /src/pogoprotos/run.sh /src/run.sh
+RUN chmod +x /src/run.sh
 
 CMD ["/bin/bash"]
