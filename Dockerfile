@@ -50,10 +50,45 @@ RUN apk add bash
 RUN apk update
 RUN apk add mc
 
-ADD https://api.github.com/repos/$BUILD_REPO/commits/$BUILD_BRANCH /tmp/pogoprotos
-RUN apk -U --no-cache add --virtual .pgobot-dependencies wget ca-certificates tar jq
-RUN wget -q -O- https://github.com/$BUILD_REPO/archive/$BUILD_BRANCH.tar.gz 
-RUN apk del .pgobot-dependencies
-RUN rm -rf /var/cache/apk/* /tmp/pgobot-version
+RUN apk update
+RUN apk add git
 
-CMD ["python", "pokecli.py"]
+
+# Install Protoc
+################
+RUN set -ex \
+	&& apk --no-cache add --virtual .pb-build \
+  make \
+	cmake \
+  autoconf \
+  automake \
+  curl \
+  tar \
+  libtool \
+	g++ \
+  \
+	&& mkdir -p /tmp/protobufs \
+	&& cd /tmp/protobufs \
+	&& curl -o protobufs.tar.gz -L https://github.com/google/protobuf/releases/download/v3.3.0/protobuf-cpp-3.3.0.tar.gz \
+	&& mkdir -p protobuf \
+	&& tar -zxvf protobufs.tar.gz -C /tmp/protobufs/protobuf --strip-components=1 \
+	&& cd protobuf \
+	&& ./autogen.sh \
+	&& ./configure --prefix=/usr \
+	&& make \
+	&& make install \
+  && cd \
+	&& rm -rf /tmp/protobufs/ \
+  && rm -rf /tmp/protobufs.tar.gz \
+	&& apk --no-cache add libstdc++ \ 
+	&& apk del .pb-build \
+	&& rm -rf /var/cache/apk/* \
+	&& mkdir /defs
+
+# Setup directories for the volumes that should be used
+WORKDIR /defs
+
+
+RUN git clone https://github.com/$BUILD_REPO /src/pogoprotos/
+
+CMD ["/bin/bash"]
