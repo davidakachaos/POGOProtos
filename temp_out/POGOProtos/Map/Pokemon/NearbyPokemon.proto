@@ -1,0 +1,12 @@
+syntax = "proto3";
+package POGOProtos.Map.Pokemon;
+
+message NearbyPokemon
+{
+	int32 pokedex_number = 1;
+	float distance_meters = 2;
+	fixed64 encounter_id = 3;
+	string fort_id = 4;
+	string fort_image_url = 5;
+	PokemonDisplayProto pokemon_display = 6;
+}

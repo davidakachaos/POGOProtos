@@ -1,0 +1,8 @@
+syntax = "proto3";
+package POGOProtos.Settings.Master;
+
+message QuestSettings
+{
+	QuestType quest_type = 1;
+	DailyQuestSettings daily_quest = 2;
+}

@@ -1,0 +1,4 @@
+mode con: cols=200 lines=60
+@rem Powershell.exe -File split_proto.ps1 -Sourcefile "E:\Projecten\GIT Repos\POGOProtos\goedzo\base\v0.69.0.proto" -OutPath "E:\Projecten\GIT Repos\POGOProtos\goedzo\temp_out" -ProtoIndexFile "E:\Projecten\GIT Repos\POGOProtos\goedzo\proto_index.txt" -SrcFolder "E:\Projecten\GIT Repos\POGOProtos\goedzo\src" > output.txt
+Powershell.exe -File split_proto.ps1 -Sourcefile "E:\Projecten\GIT Repos\POGOProtos\goedzo\base\v0.69.0.proto" -OutPath "E:\Projecten\GIT Repos\POGOProtos\goedzo\temp_out" -ProtoIndexFile "E:\Projecten\GIT Repos\POGOProtos\goedzo\proto_index.txt" -SrcFolder "E:\Projecten\GIT Repos\POGOProtos\goedzo\src"
+pause

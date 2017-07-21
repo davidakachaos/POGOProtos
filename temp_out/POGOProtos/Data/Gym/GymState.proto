@@ -1,0 +1,9 @@
+syntax = "proto3";
+package POGOProtos.Data.Gym;
+
+message GymState
+{
+	PokemonFortProto fort_map_data = 1;
+	repeated GymMembershipProto gym_membership = 2;
+	bool deploy_lockout = 3;
+}

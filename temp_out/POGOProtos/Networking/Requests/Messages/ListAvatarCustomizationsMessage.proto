@@ -1,0 +1,37 @@
+syntax = "proto3";
+package POGOProtos.Networking.Requests.Messages;
+
+message ListAvatarCustomizationsMessage
+{
+	PlayerAvatarType avatar_type = 1;
+	repeated Slot slot = 2;
+	repeated Filter filters = 3;
+	int32 start = 4;
+	int32 limit = 5;
+	enum Slot
+	{
+		UNSET_SLOT = 0;
+		HAIR = 1;
+		SHIRT = 2;
+		PANTS = 3;
+		HAT = 4;
+		SHOES = 5;
+		EYES = 6;
+		BACKPACK = 7;
+		GLOVES = 8;
+		SOCKS = 9;
+		BELT = 10;
+		GLASSES = 11;
+		NECKLACE = 12;
+	}
+	enum Filter
+	{
+		UNSET = 0;
+		ALL = 1;
+		DEFAULT = 2;
+		OWNED = 3;
+		FEATURED = 4;
+		PURCHASABLE = 5;
+		UNLOCKABLE = 6;
+	}
+}
