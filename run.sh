@@ -1,5 +1,14 @@
 #!/bin/bash
 
+rm -rf /src/pogoprotos/
+git clone -b dev https://github.com/goedzo/POGOProtos /src/pogoprotos/
+
+rm -rf /src/pgoapi/
+git clone https://github.com/goedzo/pgoapi /src/pgoapi/
+
+cp -F /src/pogoprotos/run.sh /src/run.sh
+chmod +x /src/run.sh
+
 cd /src/pogoprotos/
 python compile.py python
 tar -zcvf out.tar.gz out
