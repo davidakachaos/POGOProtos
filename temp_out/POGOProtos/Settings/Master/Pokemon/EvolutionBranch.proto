@@ -1,0 +1,9 @@
+syntax = "proto3";
+package POGOProtos.Settings.Master.Pokemon;
+
+message EvolutionBranch
+{
+	HoloPokemonId evolution = 1;
+	Item evolution_item_requirement = 2;
+	int32 candy_cost = 3;
+}

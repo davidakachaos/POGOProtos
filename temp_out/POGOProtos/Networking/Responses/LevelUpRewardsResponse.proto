@@ -1,0 +1,16 @@
+syntax = "proto3";
+package POGOProtos.Networking.Responses;
+
+message LevelUpRewardsResponse
+{
+	Result result = 1;
+	repeated AwardItemProto items = 2;
+	repeated Item items_unlocked = 4;
+	repeated string avatar_template_ids = 5;
+	enum Result
+	{
+		UNSET = 0;
+		SUCCESS = 1;
+		AWARDED_ALREADY = 2;
+	}
+}

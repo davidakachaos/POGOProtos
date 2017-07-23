@@ -1,0 +1,11 @@
+syntax = "proto3";
+package POGOProtos.Inventory;
+
+message LootItem
+{
+	Item item = 1;
+	bool stardust = 2;
+	bool pokecoin = 3;
+	HoloPokemonId pokemon_candy = 4;
+	int32 count = 5;
+}

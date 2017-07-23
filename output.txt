@@ -1,0 +1,496 @@
+Let's write  enum FortType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Map\Fort\FortType.proto 
+
+Let's write  enum ItemId to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\Item\ItemId.proto 
+
+Let's write  enum PlayerAvatarType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\PlayerAvatarType.proto 
+
+Let's write  enum InventoryUpgradeType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\InventoryUpgradeType.proto 
+
+Let's write  enum QuestType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\QuestType.proto 
+
+Let's write  enum EggIncubatorType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\EggIncubatorType.proto 
+
+Let's write  enum PokemonType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\PokemonType.proto 
+
+Let's write  enum PokemonMovementType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\PokemonMovementType.proto 
+
+Let's write  enum ItemType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\Item\ItemType.proto 
+
+Let's write  enum ItemCategory to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\ItemCategory.proto 
+
+Let's write  enum HoloIapItemCategory to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\IapItemCategory.proto 
+
+Let's write  enum ItemEffect to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\ItemEffect.proto 
+
+Let's write  enum BadgeType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\BadgeType.proto 
+
+Let's write  enum CameraInterpolation to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\CameraInterpolation.proto 
+
+Let's write  enum CameraTarget to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\CameraTarget.proto 
+
+Let's write  enum PokemonMove to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\PokemonMove.proto 
+
+Let's write  enum PokemonId to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\PokemonId.proto 
+
+Let's write  enum PokemonFamilyId to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\PokemonFamilyId.proto 
+
+Let's write  enum GymBadgeType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\GymBadgeType.proto 
+
+Let's write  enum EncounterType to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\EncounterType.proto 
+
+Let's write  enum RaidLevel to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\RaidLevel.proto 
+
+Let's write  enum NotificationCategory to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\NotificationCategory.proto 
+
+Let's write  enum VariableName to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\VariableName.proto 
+
+Let's write  enum NotificationState to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\NotificationState.proto 
+
+Let's write  enum Platform to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\Platform.proto 
+
+Let's write  enum TutorialState to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Enums\TutorialState.proto 
+
+Let's write  message ListAvatarCustomizationsMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\ListAvatarCustomizationsMessage.proto 
+
+Let's write  message ListAvatarCustomizationsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\ListAvatarCustomizationsResponse.proto 
+
+Let's write  message AvatarCustomization to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Avatar\AvatarCustomization.proto 
+
+Let's write  message SetAvatarItemAsViewedMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\SetAvatarItemAsViewedMessage.proto 
+
+Let's write  message SetAvatarItemAsViewedResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\SetAvatarItemAsViewedResponse.proto 
+
+Let's write  message BackgroundToken to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\BackgroundToken.proto 
+
+Let's write  message RegisterBackgroundDeviceResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\RegisterBackgroundDeviceResponse.proto 
+
+Let's write  message AssetDigestEntry to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\AssetDigestEntry.proto 
+
+Let's write  message GetAssetDigestResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetAssetDigestResponse.proto 
+
+Let's write  message DownloadUrlEntry to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\DownloadUrlEntry.proto 
+
+Let's write  message CollectDailyBonusMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\CollectDailyBonusMessage.proto 
+
+Let's write  message CollectDailyBonusResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\CollectDailyBonusResponse.proto 
+
+Let's write  message EchoMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\EchoMessage.proto 
+
+Let's write  message EchoResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\EchoResponse.proto 
+
+Let's write  message GetHatchedEggsMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetHatchedEggsMessage.proto 
+
+Let's write  message GetHatchedEggsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetHatchedEggsResponse.proto 
+
+Let's write  message EncounterMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\EncounterMessage.proto 
+
+Let's write  message EncounterResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\EncounterResponse.proto 
+
+Let's write  message CatchPokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\CatchPokemonMessage.proto 
+
+Let's write  message CatchPokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\CatchPokemonResponse.proto 
+
+Let's write  message UseItemCaptureMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UseItemCaptureMessage.proto 
+
+Let's write  message UseItemCaptureResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UseItemCaptureResponse.proto 
+
+Let's write  message EncounterTutorialCompleteMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\EncounterTutorialCompleteMessage.proto 
+
+Let's write  message EncounterTutorialCompleteResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\EncounterTutorialCompleteResponse.proto 
+
+Let's write  message UseIncenseMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UseIncenseMessage.proto 
+
+Let's write  message UseIncenseResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UseIncenseResponse.proto 
+
+Let's write  message GetIncensePokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetIncensePokemonMessage.proto 
+
+Let's write  message GetIncensePokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetIncensePokemonResponse.proto 
+
+Let's write  message IncenseEncounterMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\IncenseEncounterMessage.proto 
+
+Let's write  message IncenseEncounterResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\IncenseEncounterResponse.proto 
+
+Let's write  message DiskEncounterMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\DiskEncounterMessage.proto 
+
+Let's write  message DiskEncounterResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\DiskEncounterResponse.proto 
+
+Let's write  message UseItemEncounterMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UseItemEncounterMessage.proto 
+
+Let's write  message UseItemEncounterResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UseItemEncounterResponse.proto 
+
+Let's write  message EvolvePokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\EvolvePokemonMessage.proto 
+
+Let's write  message EvolvePokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\EvolvePokemonResponse.proto 
+
+Let's write  message ItemAward to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\Item\ItemAward.proto 
+
+Let's write  message FortSearchMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\FortSearchMessage.proto 
+
+Let's write  message FortSearchResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\FortSearchResponse.proto 
+
+Let's write  message FortDetailsMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\FortDetailsMessage.proto 
+
+Let's write  message FortDetailsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\FortDetailsResponse.proto 
+
+Let's write  message FortDeployPokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\FortDeployPokemonMessage.proto 
+
+Let's write  message FortDeployPokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\FortDeployPokemonResponse.proto 
+
+Let's write  message GymDeployMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GymDeployMessage.proto 
+
+Let's write  message GymDeployResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GymDeployResponse.proto 
+
+Let's write  message GymFeedPokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GymFeedPokemonMessage.proto 
+
+Let's write  message GymFeedPokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GymFeedPokemonResponse.proto 
+
+Let's write  message AddFortModifierMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\AddFortModifierMessage.proto 
+
+Let's write  message AddFortModifierResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\AddFortModifierResponse.proto 
+
+Let's write  message PokemonSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\PokemonSettings.proto 
+
+Let's write  message EvolutionBranch to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Pokemon\EvolutionBranch.proto 
+
+Let's write  message PokeBallAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\PokeballAttributes.proto 
+
+Let's write  message PotionAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\PotionAttributes.proto 
+
+Let's write  message ReviveAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\ReviveAttributes.proto 
+
+Let's write  message BattleAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\BattleAttributes.proto 
+
+Let's write  message FoodAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\FoodAttributes.proto 
+
+Let's write  message InventoryUpgradeAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\InventoryUpgradeAttributes.proto 
+
+Let's write  message ExperienceBoostAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\ExperienceBoostAttributes.proto 
+
+Let's write  message EggIncubatorAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\EggIncubatorAttributes.proto 
+
+Let's write  message IncenseAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\IncenseAttributes.proto 
+
+Let's write  message FortModifierAttributes to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Item\FortModifierAttributes.proto 
+
+Let's write  message ItemSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\ItemSettings.proto 
+
+Let's write  message IapItemDisplay to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\IapItemDisplay.proto 
+
+Let's write  message MoveSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\MoveSettings.proto 
+
+Let's write  message MoveSequenceSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\MoveSequenceSettings.proto 
+
+Let's write  message TypeEffectiveSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\TypeEffectiveSettings.proto 
+
+Let's write  message BadgeSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\BadgeSettings.proto 
+
+Let's write  message BadgeCaptureReward to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Badge\BadgeCaptureReward.proto 
+
+Let's write  message CameraSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\CameraSettings.proto 
+
+Let's write  message PlayerLevelSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\PlayerLevelSettings.proto 
+
+Let's write  message GymLevelSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\GymLevelSettings.proto 
+
+Let's write  message GymBattleSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\GymBattleSettings.proto 
+
+Let's write  message EncounterSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\EncounterSettings.proto 
+
+Let's write  message IapSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\IapSettings.proto 
+
+Let's write  message PokemonUpgradeSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\PokemonUpgradeSettings.proto 
+
+Let's write  message EquippedBadgeSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\EquippedBadgeSettings.proto 
+
+Let's write  message DailyQuestSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\Quest\DailyQuestSettings.proto 
+
+Let's write  message QuestSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\QuestSettings.proto 
+
+Let's write  message AvatarCustomization to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Avatar\AvatarCustomization.proto 
+
+Let's write  message FormSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\FormSettings.proto 
+
+Let's write  message GymBadgeGmtSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\Master\GymBadgeGmtSettings.proto 
+
+Let's write  message GetMapObjectsMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetMapObjectsMessage.proto 
+
+Let's write  message GetMapObjectsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetMapObjectsResponse.proto 
+
+Let's write  message NearbyPokemon to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Map\Pokemon\NearbyPokemon.proto 
+
+Let's write  message GymBadgeStats to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Badge\GymBadgeStats.proto 
+
+Let's write  message AwardedGymBadge to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Badge\AwardedGymBadge.proto 
+
+Let's write  message PlayerRaidInfo to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Raid\PlayerRaidInfo.proto 
+
+Let's write  message Raid to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Raid\Raid.proto 
+
+Let's write  message ListGymBadgesMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\ListGymBadgesMessage.proto 
+
+Let's write  message ListGymBadgesResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\ListGymBadgesResponse.proto 
+
+Let's write  message GetGymDetailsMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetGymDetailsMessage.proto 
+
+Let's write  message GetGymDetailsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetGymDetailsResponse.proto 
+
+Let's write  message GymGetInfoMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GymGetInfoMessage.proto 
+
+Let's write  message GymGetInfoResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GymGetInfoResponse.proto 
+
+Let's write  message GymStatusAndDefenders to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Gym\GymStatusAndDefenders.proto 
+
+Let's write  message GymDefender to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Gym\GymDefender.proto 
+
+Let's write  message MotivatedPokemon to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Map\Pokemon\MotivatedPokemon.proto 
+
+Let's write  message FoodValue to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\FoodValue.proto 
+
+Let's write  message GymState to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Gym\GymState.proto 
+
+Let's write  message GetGymBadgeDetailsMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetGymBadgeDetailsMessage.proto 
+
+Let's write  message GetGymBadgeDetailsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetGymBadgeDetailsResponse.proto 
+
+Let's write  message StartGymBattleMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\StartGymBattleMessage.proto 
+
+Let's write  message StartGymBattleResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\StartGymBattleResponse.proto 
+
+Let's write  message AttackGymMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\AttackGymMessage.proto 
+
+Let's write  message Battle to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Battle\Battle.proto 
+
+Let's write  message BattleUpdate to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Battle\BattleUpdate.proto 
+
+Let's write  message BattleAction to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Battle\BattleAction.proto 
+
+Let's write  message AttackGymResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\AttackGymResponse.proto 
+
+Let's write  message GymMembership to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Gym\GymMembership.proto 
+
+Let's write  message BattleParticipant to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Battle\BattleParticipant.proto 
+
+Let's write  message LobbyPokemon to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Map\Pokemon\LobbyPokemon.proto 
+
+Let's write  message BattlePokemonInfo to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Battle\BattlePokemonInfo.proto 
+
+Let's write  message BattleResults to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Battle\BattleResults.proto 
+
+Let's write  message BattleLog to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Battle\BattleLog.proto 
+
+Let's write  message RaidTickets to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\RaidTickets.proto 
+
+Let's write  message AvatarItem to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Avatar\AvatarItem.proto 
+
+Let's write  message PokedexEntry to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\PokedexEntry.proto 
+
+Let's write  message PlayerStats to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\PlayerStats.proto 
+
+Let's write  message PlayerCurrency to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\PlayerCurrency.proto 
+
+Let's write  message PlayerCamera to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\PlayerCamera.proto 
+
+Let's write  message InventoryUpgrades to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\InventoryUpgrades.proto 
+
+Let's write  message InventoryUpgrade to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\InventoryUpgrade.proto 
+
+Let's write  message DailyQuest to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Quests\DailyQuest.proto 
+
+Let's write  message Quest to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Quests\Quest.proto 
+
+Let's write  message EggIncubators to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\EggIncubators.proto 
+
+Let's write  message EggIncubator to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\EggIncubator.proto 
+
+Let's write  message AppliedItems to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\AppliedItems.proto 
+
+Let's write  message AppliedItem to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\AppliedItem.proto 
+
+Let's write  message BuddyPokemon to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\BuddyPokemon.proto 
+
+Let's write  message PlayerPublicProfile to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\PlayerPublicProfile.proto 
+
+Let's write  message PlayerAvatar to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\PlayerAvatar.proto 
+
+Let's write  message ActionLogEntry to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Logs\ActionLogEntry.proto 
+
+Let's write  message CatchPokemonLogEntry to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Logs\CatchPokemonLogEntry.proto 
+
+Let's write  message BuddyPokemonLogEntry to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Logs\BuddyPokemonLogEntry.proto 
+
+Let's write  message FortSearchLogEntry to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Logs\FortSearchLogEntry.proto 
+
+Let's write  message PokemonDisplay to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\PokemonDisplay.proto 
+
+Let's write  message RaidInfo to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Raid\RaidInfo.proto 
+
+Let's write  message CaptureProbability to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Capture\CaptureProbability.proto 
+
+Let's write  message Loot to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\Loot.proto 
+
+Let's write  message LootItem to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\LootItem.proto 
+
+Let's write  message RaidTicket to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\RaidTicket.proto 
+
+Let's write  message ExclusiveTicketInfo to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\ExclusiveTicketInfo.proto 
+
+Let's write  message EventInfo to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\EventInfo.proto 
+
+Let's write  message GetInboxMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetInboxMessage.proto 
+
+Let's write  message GetInboxResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetInboxResponse.proto 
+
+Let's write  message InventoryItem to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\InventoryItem.proto 
+
+Let's write  message InventoryDelta to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Inventory\InventoryDelta.proto 
+
+Let's write  message UpdateNotificationMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UpdateNotificationMessage.proto 
+
+Let's write  message UpdateNotificationResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UpdateNotificationResponse.proto 
+
+Let's write  message PushNotificationRegistryMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\PushNotificationRegistryMessage.proto 
+
+Let's write  message PushNotificationRegistryResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\PushNotificationRegistryResponse.proto 
+
+Let's write  message PlayerBadge to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\PlayerBadge.proto 
+
+Let's write  message GetPlayerProfileResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetPlayerProfileResponse.proto 
+
+Let's write  message LevelUpRewardsMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\LevelUpRewardsMessage.proto 
+
+Let's write  message LevelUpRewardsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\LevelUpRewardsResponse.proto 
+
+Let's write  message RedeemedItem to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Redeem\RedeemedItem.proto 
+
+Let's write  message RedeemedAvatarItem to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Redeem\RedeemedAvatarItem.proto 
+
+Let's write  message PokeCandy to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Redeem\PokeCandy.proto 
+
+Let's write  message RedeemPasscodeReward to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\RedeemPasscodeReward.proto 
+
+Let's write  message GymDisplay to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Map\Fort\GymDisplay.proto 
+
+Let's write  message GymEvent to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Map\Fort\GymEvent.proto 
+
+Let's write  message WildPokemon to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Map\Pokemon\WildPokemon.proto 
+
+Let's write  message MapPokemon to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Map\Pokemon\MapPokemon.proto 
+
+Let's write  message ContactSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\ContactSettings.proto 
+
+Let's write  message DailyBonus to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\DailyBonus.proto 
+
+Let's write  message EquippedBadge to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\Player\EquippedBadge.proto 
+
+Let's write  message GetPlayerMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetPlayerMessage.proto 
+
+Let's write  message GetPlayerResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetPlayerResponse.proto 
+
+Let's write  message GetInventoryMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetInventoryMessage.proto 
+
+Let's write  message GetInventoryResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetInventoryResponse.proto 
+
+Let's write  message SetFavoritePokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\SetFavoritePokemonMessage.proto 
+
+Let's write  message SetFavoritePokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\SetFavoritePokemonResponse.proto 
+
+Let's write  message ReleasePokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\ReleasePokemonMessage.proto 
+
+Let's write  message ReleasePokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\ReleasePokemonResponse.proto 
+
+Let's write  message NicknamePokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\NicknamePokemonMessage.proto 
+
+Let's write  message NicknamePokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\NicknamePokemonResponse.proto 
+
+Let's write  message ClaimCodenameMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\ClaimCodenameMessage.proto 
+
+Let's write  message CheckCodenameAvailableResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\CheckCodenameAvailableResponse.proto 
+
+Let's write  message SetAvatarMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\SetAvatarMessage.proto 
+
+Let's write  message SetAvatarResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\SetAvatarResponse.proto 
+
+Let's write  message SetContactSettingsMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\SetContactSettingsMessage.proto 
+
+Let's write  message SetContactSettingsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\SetContactSettingsResponse.proto 
+
+Let's write  message SetPlayerTeamMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\SetPlayerTeamMessage.proto 
+
+Let's write  message SetPlayerTeamResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\SetPlayerTeamResponse.proto 
+
+Let's write  message MarkTutorialCompleteMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\MarkTutorialCompleteMessage.proto 
+
+Let's write  message MarkTutorialCompleteResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\MarkTutorialCompleteResponse.proto 
+
+Let's write  message CheckAwardedBadgesMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\CheckAwardedBadgesMessage.proto 
+
+Let's write  message CheckAwardedBadgesResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\CheckAwardedBadgesResponse.proto 
+
+Let's write  message EquipBadgeMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\EquipBadgeMessage.proto 
+
+Let's write  message EquipBadgeResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\EquipBadgeResponse.proto 
+
+Let's write  message CheckChallengeMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\CheckChallengeMessage.proto 
+
+Let's write  message CheckChallengeResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\CheckChallengeResponse.proto 
+
+Let's write  message VerifyChallengeMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\VerifyChallengeMessage.proto 
+
+Let's write  message VerifyChallengeResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\VerifyChallengeResponse.proto 
+
+Let's write  message SetBuddyPokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\SetBuddyPokemonMessage.proto 
+
+Let's write  message SetBuddyPokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\SetBuddyPokemonResponse.proto 
+
+Let's write  message GetBuddyWalkedMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\GetBuddyWalkedMessage.proto 
+
+Let's write  message GetBuddyWalkedResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\GetBuddyWalkedResponse.proto 
+
+Let's write  message GlobalSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\GlobalSettings.proto 
+
+Let's write  message FortSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\FortSettings.proto 
+
+Let's write  message MapSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\MapSettings.proto 
+
+Let's write  message LevelSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\LevelSettings.proto 
+
+Let's write  message InventorySettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\InventorySettings.proto 
+
+Let's write  message GpsSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\GpsSettings.proto 
+
+Let's write  message FestivalSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\FestivalSettings.proto 
+
+Let's write  message EventSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\EventSettings.proto 
+
+Let's write  message TranslationSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\TranslationSettings.proto 
+
+Let's write  message PasscodeSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\PasscodeSettings.proto 
+
+Let's write  message NotificationSettings to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\NotificationSettings.proto 
+
+Let's write  message DownloadSettingsAction to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Settings\DownloadSettingsAction.proto 
+
+Let's write  message DownloadSettingsResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\DownloadSettingsResponse.proto 
+
+Let's write  message UpgradePokemonMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UpgradePokemonMessage.proto 
+
+Let's write  message UpgradePokemonResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UpgradePokemonResponse.proto 
+
+Let's write  message UseItemPotionMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UseItemPotionMessage.proto 
+
+Let's write  message UseItemPotionResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UseItemPotionResponse.proto 
+
+Let's write  message UseItemReviveMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UseItemReviveMessage.proto 
+
+Let's write  message UseItemReviveResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UseItemReviveResponse.proto 
+
+Let's write  message UseItemXpBoostMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UseItemXpBoostMessage.proto 
+
+Let's write  message UseItemXpBoostResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UseItemXpBoostResponse.proto 
+
+Let's write  message UseItemEggIncubatorMessage to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Requests\Messages\UseItemEggIncubatorMessage.proto 
+
+Let's write  message UseItemEggIncubatorResponse to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Networking\Responses\UseItemEggIncubatorResponse.proto 
+
+Let's write  message ClientVersion to  E:\Projecten\GIT Repos\POGOProtos\goedzo\src\POGOProtos\Data\ClientVersion.proto 
+

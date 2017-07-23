@@ -1,0 +1,11 @@
+syntax = "proto3";
+package POGOProtos.Settings.Master;
+
+message IapItemDisplay
+{
+	string sku = 1;
+	HoloIapItemCategory category = 2;
+	int32 sort_order = 3;
+	repeated Item items = 4;
+	repeated int32 counts = 5;
+}

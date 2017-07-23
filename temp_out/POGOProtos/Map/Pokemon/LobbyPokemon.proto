@@ -1,0 +1,10 @@
+syntax = "proto3";
+package POGOProtos.Map.Pokemon;
+
+message LobbyPokemon
+{
+	int64 id = 1;
+	HoloPokemonId pokedex_id = 2;
+	int32 cp = 3;
+	float percent_health = 4;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+package POGOProtos.Networking.Responses;
+
+message GetPlayerResponse
+{
+	bool success = 1;
+	ClientPlayerProto player = 2;
+	bool banned = 3;
+	bool warn = 4;
+}

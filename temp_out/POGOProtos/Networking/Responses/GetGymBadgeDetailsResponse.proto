@@ -1,0 +1,9 @@
+syntax = "proto3";
+package POGOProtos.Networking.Responses;
+
+message GetGymBadgeDetailsResponse
+{
+	AwardedGymBadge gym_badge = 1;
+	GymDefenderProto gym_defender = 2;
+	bool success = 3;
+}

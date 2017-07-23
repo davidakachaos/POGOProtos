@@ -1,0 +1,11 @@
+syntax = "proto3";
+package POGOProtos.Data.Logs;
+
+message ActionLogEntry
+{
+	int64 timestamp_ms = 1;
+	bool sfida = 2;
+	CatchPokemonLogEntry catch_pokemon = 3;
+	FortSearchLogEntry fort_search = 4;
+	BuddyPokemonLogEntry buddy_pokemon = 5;
+}

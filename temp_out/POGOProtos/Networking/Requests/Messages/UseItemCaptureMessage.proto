@@ -1,0 +1,9 @@
+syntax = "proto3";
+package POGOProtos.Networking.Requests.Messages;
+
+message UseItemCaptureMessage
+{
+	Item item = 1;
+	fixed64 encounter_id = 2;
+	string spawn_point_guid = 3;
+}

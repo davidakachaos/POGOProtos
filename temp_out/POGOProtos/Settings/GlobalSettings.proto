@@ -1,0 +1,20 @@
+syntax = "proto3";
+package POGOProtos.Settings;
+
+message GlobalSettings
+{
+	FortSettingsProto fort_settings = 2;
+	MapSettingsProto map_settings = 3;
+	LevelSettingsProto level_settings = 4;
+	InventorySettingsProto inventory_settings = 5;
+	string minimum_client_version = 6;
+	GpsSettingsProto gps_settings = 7;
+	FestivalSettingsProto festival_settings = 8;
+	EventSettingsProto event_settings = 9;
+	int32 max_pokemon_types = 10;
+	SfidaGlobalSettingsProto sfida_settings = 11;
+	NewsSettingProto news_settings = 12;
+	TranslationSettingsProto translation_settings = 13;
+	PasscodeSettingsProto passcode_settings = 14;
+	NotificationSettingsProto notification_settings = 15;
+}
